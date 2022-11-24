@@ -1,35 +1,39 @@
 :root {
-    --brand-green: #357165;
+    --brand-blue: #52b4b4;
+    --brand-pink: #f4c2f4;
+
     
   }
   
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--brand-green);
+    background-color: var(--brand-blue);
     font-size: 16px;
   }
   
+
   header {
-    background-color: var(--dark-teal);
-    border-bottom: 1px solid black ;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    margin: 20px;
+    color: whitesmoke;
   }
   
-  h1 a {
-    color: var(--tea-green);
-    font-size: 50px;
-  }
-  
-  h1, h2 {
+   h1, h2 {
     text-align: center;
     margin-bottom: 30px;
     font-weight: bold;
+    color: whitesmoke;
+    font-family: 'Alata', sans-serif;
   }
   
+
   nav a {
     color: var(--tea-green);
     font-size: 30px;
     text-decoration: underline;
     padding: 6px;
+    font-family: 'Alata', sans-serif;
   }
   
   .card-header {
@@ -39,6 +43,7 @@
   
   button a {
     color: white;
+    padding: 20px;
   }
   
   .post {
@@ -52,3 +57,8 @@
   .centerthisbutton {
     text-align: center;
   }
+
+  .btn {
+    margin: 25px;
+  }
+  

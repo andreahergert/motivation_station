@@ -1,0 +1,23 @@
+<h2>Your Goals</h2>
+<button type="submit" class="btn btn-secondary"><a href="/dashboard/new">ADD GOAL</a></button>
+<section>
+    {{#if goals.length}}
+
+    {{#each goals as |goal|}}
+    <article class="goal">
+        <div class="container-fluid dashboard-container">
+            <div class="card-header dashboard-goal">
+                <h4 class="card-title goal-title"><a class="link" href="/dashboard/edit/{{id}}">{{title}}</a></h4>
+                <div class="card-body goal-body">
+                    <p class="card-body goal-content">{{content}}</p>
+                    <p class="card-text goal-author">Posted by <span class="goal-username">{{user.username}}</span> on
+                        {{format_date goal.createdAt}}</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    {{/each}}
+
+
+    {{/if}}
+</section>

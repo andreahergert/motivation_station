@@ -1,0 +1,18 @@
+<h2>Edit or Delete Goal</h2>
+<form class="card-body edit-goal-form">
+    <div class="form-row">
+        <label for="goal-title" class="form-label">Title</label>
+        <input name="goal-title" id="title" type="text" value="{{goal.title}}" class="form-input form-control" />
+    </div>
+
+    <div class="form-row">
+        <label class="form-label" for="content">Content</label>
+        <input name="content" id="content" type="text" value="{{goal.content}}" class="form-input form-control" />
+    </div>
+    <button id="update" type="submit" class="btn btn-primary">UPDATE GOAL</button>
+    <button id="delete" type="submit" class="btn delete-goal-btn btn-primary">DELETE GOAL</button>
+</form>
+
+
+<script src="/js/edit-goal.js"></script>
+<script src="/js/delete-goal.js"></script>

@@ -1,64 +1,99 @@
 :root {
-    --brand-blue: #52b4b4;
-    --brand-pink: #f4c2f4;
+  --brand-blue: #52b4b4;
+  --brand-pink: #f4c2f4;
 
-    
-  }
-  
-  body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--brand-blue);
-    font-size: 16px;
-  }
-  
 
-  header {
-    font-family: 'Alata', sans-serif;
-    text-align: center;
-    margin: 20px;
-    color: whitesmoke;
-  }
-  
-   h1, h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: bold;
-    color: whitesmoke;
-    font-family: 'Alata', sans-serif;
-  }
-  
+}
 
-  nav a {
-    color: var(--tea-green);
-    font-size: 30px;
-    text-decoration: underline;
-    padding: 6px;
-    font-family: 'Alata', sans-serif;
-  }
-  
-  .card-header {
-    background-color: #ccc;
-    display: block;
-  }
-  
-  button a {
-    color: white;
-    padding: 20px;
-  }
-  
-  .post {
-    margin: 5px;
-  }
-  
-  .col {
-    margin: 5px;
-  }
-  
-  .centerthisbutton {
-    text-align: center;
-  }
+body {
+  font-family: 'Nunito', Tahoma, sans-serif;
+  background-color: var(--brand-blue);
+  font-size: 16px;
+}
 
-  .btn {
-    margin: 25px;
-  }
-  
+
+
+header {
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+  margin: 20px;
+  color: whitesmoke;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-family: 'Alata', sans-serif;
+}
+
+p {
+  font-family: 'Alata', sans-serif;
+}
+
+nav a {
+  color: var(--tea-green);
+  font-size: 30px;
+  text-decoration: underline;
+  padding: 6px;
+  font-family: 'Alata', sans-serif;
+}
+
+.card-header {
+  background-color: #ccc;
+  display: block;
+}
+
+button a {
+  color: white;
+  padding: 20px;
+}
+
+.post {
+  margin: 5px;
+}
+
+.col {
+  margin: 5px;
+}
+
+.centerthisbutton {
+  text-align: center;
+}
+
+.btn {
+  margin: 25px;
+
+}
+
+.title {
+  font-size: 55px;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 2.5vh;
+}
+
+a:hover {
+  text-decoration: none;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  color: var(--brand-pink)
+
+}
+
+.animation {
+  align-items: center;
+  margin: 15px;
+  text-align: center;
+}
+
+.cardtitle {
+  font-family: 'Poppins', sans-serif;
+}

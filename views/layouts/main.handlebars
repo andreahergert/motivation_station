@@ -9,9 +9,11 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alata&family=Nunito:wght@312;400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Nunito:wght@312;400&family=Poppins:wght@600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -19,8 +21,14 @@
   <div>
     <header>
       <h1><a class="title" href="/">Motivation Station</a></h1>
-      <nav class="navbar">
-        <a class="link hover-1" href="/">Home</a>
+      <nav class="navbar nav-tabs justify-content-end">
+
+        <div class="animation">
+          <img src="../../public/images/giphy(1).gif" alt="high-fiving squares" height="50" width="50"> 
+          <!--<iframe class="animation" src="https://giphy.com/embed/tkGr67V1CTJfGo9ujs"></iframe> -->
+        </div>
+
+        <a class="link" href="/">Home</a>
         <a class="link" href="/dashboard">Dashboard</a>
         {{#if logged_in}}
         <a class="link" href="/" id="logout">Logout</a>

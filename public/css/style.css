@@ -42,8 +42,9 @@ nav a {
 }
 
 .card-header {
-  background-color: #ccc;
   display: block;
+  color: var(--brand-blue);
+  background-color: whitesmoke;
 }
 
 button a {
@@ -89,11 +90,13 @@ a:hover {
 }
 
 .animation {
-  align-items: center;
   margin: 15px;
-  text-align: center;
 }
 
 .cardtitle {
   font-family: 'Poppins', sans-serif;
+}
+
+.btn-login {
+  background-color: var(--brand-blue);
 }

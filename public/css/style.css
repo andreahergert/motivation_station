@@ -16,14 +16,14 @@ body {
 header {
   font-family: 'Alata', sans-serif;
   text-align: center;
-  margin: 20px;
+  margin: 10px;
   color: whitesmoke;
 }
 
 h1,
 h2 {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 5px;
   font-weight: bold;
   color: whitesmoke;
   font-family: 'Alata', sans-serif;
@@ -34,10 +34,7 @@ p {
 }
 
 nav a {
-  color: var(--tea-green);
   font-size: 30px;
-  text-decoration: underline;
-  padding: 6px;
   font-family: 'Alata', sans-serif;
 }
 
@@ -79,6 +76,7 @@ button a {
   color: whitesmoke;
   text-decoration: none;
   font-size: 2.5vh;
+  margin: 1vh;
 }
 
 a:hover {
@@ -90,7 +88,8 @@ a:hover {
 }
 
 .animation {
-  margin: 15px;
+  border: none !important;
+  justify-content: right;
 }
 
 .cardtitle {

@@ -57,7 +57,7 @@ button a {
 }
 
 .col {
-  margin: 5px;
+  margin: 3px;
 }
 
 .centerthisbutton {
@@ -83,7 +83,7 @@ button a {
 
 a:hover {
   text-decoration: none;
-  transform: translateY(-0.1rem);
+  transform: translateY(-0.2rem);
   transition: transform 150ms;
   color: var(--brand-pink)
 
@@ -99,4 +99,33 @@ a:hover {
 
 .btn-login {
   background-color: var(--brand-blue);
+  border-color: var(--brand-blue);
+}
+
+.btn-login:hover{
+  background-color: var(--brand-pink);
+  border-color: var(--brand-blue);
+}
+
+.quote-container {
+  border-radius: 15px;
+  background-color: whitesmoke;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  width: 75vh;
+}
+.quote {
+  color: var(--brand-blue);
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.login-form{
+ width: 75vh;
+ margin-bottom: 20vh;
+}
+
+.loginCard {
+  border-radius: 15px;
 }

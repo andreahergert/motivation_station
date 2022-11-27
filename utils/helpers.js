@@ -1,11 +1,12 @@
-// change to date function
+const dayjs = require('dayjs')
+const dayJsObject = dayjs();
+
 module.exports = {
-  format_time: (date) => {
-    return date.toLocaleTimeString();
-  },
-  format_date: (date) => {
-    return `${new Date(date).getMonth() + 1}/${new Date(
-      date
-    ).getDate()}/${new Date(date).getFullYear()}`;
+  dayjs: () => {
+    return `${dayJsObject.format("dddd, MMMM D, YYYY")}`
   },
 };
+
+console.log(dayJsObject.format("dddd, MMMM D, YYYY"))
+// goals: goal.createdAt
+// comments: createdAt

@@ -112,8 +112,6 @@ a:hover {
   margin-bottom: 3vh;
   margin-top: 3vh;
   width: 75vh;
-}
-.quote {
   color: var(--brand-blue);
   padding: 20px;
   margin: 15px;

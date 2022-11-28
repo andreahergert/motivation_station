@@ -9,6 +9,8 @@ body {
   font-family: 'Nunito', Tahoma, sans-serif;
   background-color: var(--brand-blue);
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -89,7 +91,7 @@ a:hover {
 
 .animation {
   border: none !important;
-  justify-content: right;
+  margin-left: 15rem;
 }
 
 .cardtitle {
@@ -109,20 +111,63 @@ a:hover {
 .quote-container {
   border-radius: 15px;
   background-color: whitesmoke;
-  margin-bottom: 3vh;
-  margin-top: 3vh;
-  width: 75vh;
   color: var(--brand-blue);
-  padding: 20px;
-  margin: 15px;
   text-align: center;
+  width: 36%;
 }
 
 .login-form{
- width: 75vh;
- margin-bottom: 20vh;
+ width: 75vw;
+ margin-top: 10px;;
+ margin-bottom: 10px;
 }
 
 .loginCard {
   border-radius: 15px;
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.navbar > * {
+  flex: 1;
+}
+
+.quote-card {
+  display: flex;
+  background-color: var(--brand-blue);
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+.quote-card > * {
+  flex: 1;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-wrapper > * {
+  flex: 1;
+  
+}
+
+@media screen and (min-width:1100px){
+  .navbar > * {
+    flex: 0;
+  }
+
+
+}
+
+@media screen and (max-width:768px) {
+  .login-wrap {
+    display: flex;
+    flex-direction: column;
+  }
 }

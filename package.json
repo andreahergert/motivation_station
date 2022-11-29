@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/andreahergert/motivation_station/issues"
   },
-  "homepage": "https://github.com/andreahergert/motivation_station#readme"
+  "homepage": "https://github.com/andreahergert/motivation_station#readme",
+  "dependencies": {
+    "dayjs": "^1.11.6"
+  }
 }

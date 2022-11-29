@@ -75,8 +75,8 @@ button a {
 .link {
   color: whitesmoke;
   text-decoration: none;
-  font-size: 2.5vh;
-  margin: 1vh;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
 
 a:hover {
@@ -89,7 +89,7 @@ a:hover {
 
 .animation {
   border: none !important;
-  margin-left: 15rem;
+  margin-bottom: -25px;
 }
 
 .cardtitle {
@@ -188,3 +188,12 @@ a:hover {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width:768px) {
+  .animation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
+

@@ -63,10 +63,8 @@ button a {
   text-align: center;
 }
 
-.btn {
-  margin: 25px;
 
-}
+
 
 .title {
   font-size: 55px;
@@ -124,6 +122,25 @@ a:hover {
 
 .loginCard {
   border-radius: 15px;
+}
+
+
+.goal {
+  display: flex;
+ border: solid 2px #f4c2f4;
+  box-shadow: 5px 5px rgb(236, 168, 227), -1em 0 .4em rgb(95, 7, 117);
+}
+
+.goal>* {
+  flex: 1;
+  gap: 10%;
+  
+ }
+
+.dashboard-goal {
+  margin: 10px;
+  background-color: #cb2dcb;
+  box-shadow: 5px 5px rgb(236, 168, 227), -1em 0 .4em rgb(95, 7, 117);
 }
 
 .navbar {

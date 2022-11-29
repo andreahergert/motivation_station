@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "devDependencies": {
+  "dependencies": {
     "bcrypt": "^4.0.1",
     "connect-session-sequelize": "^7.1.5",
     "date-fns": "^2.29.3",
     "dotenv": "^16.0.3",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.23.2"
+    "sequelize": "^6.23.2",
+    "dayjs": "^1.11.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
@@ -29,8 +31,5 @@
   "bugs": {
     "url": "https://github.com/andreahergert/motivation_station/issues"
   },
-  "homepage": "https://github.com/andreahergert/motivation_station#readme",
-  "dependencies": {
-    "dayjs": "^1.11.6"
-  }
+  "homepage": "https://github.com/andreahergert/motivation_station#readme"
 }

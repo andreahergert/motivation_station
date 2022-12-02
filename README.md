@@ -53,7 +53,7 @@ This is our group project for Project 2 created in the UW Coding Bootcamp. On th
 Webpage: https://secret-springs-16165.herokuapp.com/
 
 Back-end after cloning or downloading repo files:
-- Open terminal and navigate to tech_blog folder
+- Open terminal and navigate to motivation_station folder
 - Type npm init -y into terminal to create a new .json file
 - Type npm i into terminal
 - Type npm i express into terminal
@@ -70,7 +70,7 @@ Back-end after cloning or downloading repo files:
 - Enter your password into terminal
 - Type source schema.sql into terminal
 - Type quit into terminal
-- Navigate back to the tech_blog in terminal
+- Navigate back to the motivation_station in terminal
 - Type node seeds/index.js so the seeds will populate the database
 - Type npm start into the terminal
 - You will see the Now Listening indication and can access on your localhost
